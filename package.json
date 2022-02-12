@@ -1,0 +1,29 @@
+{
+ 
+  "name": "node-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "mnodule",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bondarchugtr/nodeJs.git"
+  },
+  "author": "Bondarchuck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bondarchugtr/nodeJs/issues"
+  },
+  "homepage": "https://github.com/bondarchugtr/nodeJs#readme",
+  "description": "",
+  "dependencies": {
+    "commander": "9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
